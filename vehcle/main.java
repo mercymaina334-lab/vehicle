@@ -9,11 +9,11 @@ public class main {
         car.numDoors =4;
 
         motorcycle motorcycle =new motorcycle();
-        motorcycle.brand "yahama";
+        motorcycle.brand ="yahama";
         motorcycle.year =2023;
         motorcycle.enginecapacity =150;
 
-        car.displaycarinfo();
+        car.displaycarInfo();
         System.out.println();
         motorcycle.displayMotorcycleInfo();
         
